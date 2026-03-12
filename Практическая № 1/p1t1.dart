@@ -3,6 +3,7 @@ void main() {
     int years = 18;
     double avg = 4.5;
     String student = "Да";
-    print("\n Имя: $name String \n Возраст: $years int \n Средний балл: $avg double \n Студент: $student string");
+    print("\n Имя: $name ${name.runtimeType} \n Возраст: $years ${years.runtimeType} \n Средний балл: $avg ${avg.runtimeType} \n Студент: $student ${student.runtimeType}");
     
+
 }
